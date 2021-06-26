@@ -9,12 +9,12 @@ import {
 
 function Header() {
     return (
-        <header>
+        <header className="sticky top-0 z-40" >
             {/* top nav */}
             <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2 " >
                 <div className="mt-2 flex items-center flex-grow sm:flex-grow-0" >
                     <Image 
-                        src="https://www.logo.wine/a/logo/Amazon_(company)/Amazon_(company)-Logo.wine.svg" 
+                        src="https://www.pinclipart.com/picdir/big/57-576184_view-our-amazon-storefront-amazon-logo-white-png.png" 
                         width={150}
                         height={40}   
                         objectFit="contain" 
@@ -51,10 +51,10 @@ function Header() {
                     <MenuIcon className="h-6 mr-1" />
                     All
                 </p>
-                <p className="link">Prime Video</p>
-                <p className="link">Amazon Business</p>
-                <p className="link">Today's Deals</p>
-
+                <p className="link">Prime</p>
+                <p className="link">Mobiles</p>
+                <p className="link">Fashion</p>
+                <p className="link">computers</p>
                 <p className="hidden link lg:inline-flex">Electronics</p>
                 <p className="hidden link lg:inline-flex">Food & Grocery </p>
                 <p className="hidden link lg:inline-flex"> Prime </p>

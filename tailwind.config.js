@@ -20,3 +20,6 @@ module.exports = {
   },
   plugins: [require("@tailwindcss/line-clamp")],
 };
+
+
+// 3b7a57
